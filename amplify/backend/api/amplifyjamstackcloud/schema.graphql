@@ -1,0 +1,5 @@
+type Videos @model {
+  id: ID!
+  name: String!
+  description: String
+}
