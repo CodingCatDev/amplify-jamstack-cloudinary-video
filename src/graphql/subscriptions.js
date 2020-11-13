@@ -7,6 +7,7 @@ export const onCreateVideo = /* GraphQL */ `
       id
       name
       description
+      cloudinary
       createdAt
       updatedAt
     }
@@ -18,6 +19,7 @@ export const onUpdateVideo = /* GraphQL */ `
       id
       name
       description
+      cloudinary
       createdAt
       updatedAt
     }
@@ -29,6 +31,7 @@ export const onDeleteVideo = /* GraphQL */ `
       id
       name
       description
+      cloudinary
       createdAt
       updatedAt
     }

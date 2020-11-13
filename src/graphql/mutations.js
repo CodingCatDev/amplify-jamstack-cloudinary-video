@@ -10,6 +10,7 @@ export const createVideo = /* GraphQL */ `
       id
       name
       description
+      cloudinary
       createdAt
       updatedAt
     }
@@ -24,6 +25,7 @@ export const updateVideo = /* GraphQL */ `
       id
       name
       description
+      cloudinary
       createdAt
       updatedAt
     }
@@ -38,6 +40,7 @@ export const deleteVideo = /* GraphQL */ `
       id
       name
       description
+      cloudinary
       createdAt
       updatedAt
     }

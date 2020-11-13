@@ -7,12 +7,18 @@ import { listVideos, cloudinarysignature } from "./graphql/queries";
 import awsExports from "./aws-exports";
 Amplify.configure(awsExports);
 
-const initialState = { name: "", description: "" };
+const initialState = {
+  name: "",
+  description: "",
+  cloudinary: null,
+};
 
 // eslint-disable-next-line no-unused-vars
 async function fetchCloudinarySignature(cb, params) {
   try {
-    const cSign = await API.graphql(graphqlOperation(cloudinarysignature, { msg: JSON.stringify(params) }));
+    const cSign = await API.graphql(
+      graphqlOperation(cloudinarysignature, { msg: JSON.stringify(params) })
+    );
     const data = JSON.parse(cSign.data.cloudinarysignature);
     console.log(`Uploading using key ${data.body}`);
     return data.body;
@@ -20,26 +26,6 @@ async function fetchCloudinarySignature(cb, params) {
     console.log("error fetching signature");
   }
 }
-
-const uploadWidget = window.cloudinary.createUploadWidget(
-  {
-    cloudName: "ajonp",
-    uploadPreset: "m5mhhkih",
-    uploadSignature: fetchCloudinarySignature,
-  },
-  (error, result) => {
-    if (!error && result && result.event === "success") {
-      console.log("Done! Here is the video info: ", result.info);
-    }
-    if(error){
-      console.log(error);
-    }
-  }
-);
-
-const showWidget = () => {
-  uploadWidget.open();
-};
 
 const App = () => {
   const [formState, setFormState] = useState(initialState);
@@ -52,6 +38,25 @@ const App = () => {
   function setInput(key, value) {
     setFormState({ ...formState, [key]: value });
   }
+
+  const uploadWidget = window.cloudinary.createUploadWidget(
+    {
+      cloudName: "ajonp",
+      uploadPreset: "dxf42z9k",
+    },
+    (error, result) => {
+      if (!error && result && result.event === "success") {
+        console.log("Done! Here is the video info: ", result.info);
+        setInput("cloudinary", JSON.stringify(result.info));
+      }
+      if (error) {
+        console.log(error);
+      }
+    }
+  );
+  const showWidget = () => {
+    uploadWidget.open();
+  };
 
   async function fetchVideos() {
     try {
@@ -78,18 +83,6 @@ const App = () => {
   return (
     <div style={styles.container}>
       <h2>Amplify Videos</h2>
-      <input
-        onChange={(event) => setInput("name", event.target.value)}
-        style={styles.input}
-        value={formState.name}
-        placeholder="Name"
-      />
-      <input
-        onChange={(event) => setInput("description", event.target.value)}
-        style={styles.input}
-        value={formState.description}
-        placeholder="Description"
-      />
       <button
         style={styles.uploadButton}
         className="cloudinary-button"
@@ -97,10 +90,27 @@ const App = () => {
       >
         Upload Video
       </button>
+        <input
+          onChange={(event) => setInput("name", event.target.value)}
+          style={styles.input}
+          value={formState.name}
+          placeholder="Name"
+          required
+        />
+        <input
+          onChange={(event) => setInput("description", event.target.value)}
+          style={styles.input}
+          value={formState.description}
+          placeholder="Description"
+        />
 
-      <button style={styles.button} onClick={addVideo}>
-        Create Video
-      </button>
+        <button
+          style={styles.button}
+          onClick={addVideo}
+        >
+          Add Video to List
+        </button>
+      {formState.cloudinary ? formState.cloudinary.secure_url : ''}
       {videos.map((video, index) => (
         <div key={video.id ? video.id : index} style={styles.video}>
           <p style={styles.videoName}>{video.name}</p>

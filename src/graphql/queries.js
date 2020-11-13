@@ -12,6 +12,7 @@ export const getVideo = /* GraphQL */ `
       id
       name
       description
+      cloudinary
       createdAt
       updatedAt
     }
@@ -28,6 +29,7 @@ export const listVideos = /* GraphQL */ `
         id
         name
         description
+        cloudinary
         createdAt
         updatedAt
       }
