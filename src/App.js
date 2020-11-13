@@ -86,6 +86,7 @@ const App = () => {
   return (
     <div style={styles.container}>
       <h2>Amplify Videos</h2>
+      <p>Have questions you can find support <a href="https://codingcat.dev">https://codingcat.dev</a></p>
       <button
         style={styles.uploadButton}
         className="cloudinary-button"
@@ -115,7 +116,7 @@ const App = () => {
           <p style={styles.videoName}>{video.name}</p>
           <p style={styles.videoDescription}>{video.description}</p>
           <div style={styles.vids}>
-            <video controls muted width="320" height="240">
+            <video controls muted width="768" height="432">
               <source
                 src={video.cloudinary.secure_url}
                 type="video/mp4"
@@ -133,7 +134,7 @@ const styles = {
     maxWidth: "800px",
   },
   container: {
-    width: 400,
+    width: 800,
     margin: "0 auto",
     display: "flex",
     flexDirection: "column",
