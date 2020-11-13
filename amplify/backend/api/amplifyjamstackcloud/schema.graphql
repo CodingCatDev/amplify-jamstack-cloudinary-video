@@ -3,3 +3,6 @@ type Video @model {
   name: String!
   description: String
 }
+type Query {
+  cloudinarysignature(msg: String): String @function(name: "cloudinarysignature-${env}")
+}
