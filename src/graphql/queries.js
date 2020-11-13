@@ -1,6 +1,11 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
+export const cloudinarysignature = /* GraphQL */ `
+  query Cloudinarysignature($msg: String) {
+    cloudinarysignature(msg: $msg)
+  }
+`;
 export const getVideo = /* GraphQL */ `
   query GetVideo($id: ID!) {
     getVideo(id: $id) {
