@@ -1,12 +1,5 @@
-# This is a tutorial for Amplify you JAMStack with Video
+# Amplify your JAMStack with Video
 
-You can find this and many other tutorials on https://codingcat.dev
+![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Amplify_with_Cloudinary.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Amplify_with_Cloudinary.png)
 
-> Please not this tutorial will not work without first setting up your Amplify environment
-
-## Steps to run locally
-- npm i
-- amplify init
-- amplify push
-- npm run start
-
+Any Issues please visit https://codingcat.dev
