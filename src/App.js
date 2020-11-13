@@ -62,6 +62,9 @@ const App = () => {
     try {
       const videoData = await API.graphql(graphqlOperation(listVideos));
       const videos = videoData.data.listVideos.items;
+      videos.map((video) => {
+        video.cloudinary = JSON.parse(video.cloudinary);
+      });
       setVideos(videos);
     } catch (err) {
       console.log("error fetching videos");
@@ -90,31 +93,35 @@ const App = () => {
       >
         Upload Video
       </button>
-        <input
-          onChange={(event) => setInput("name", event.target.value)}
-          style={styles.input}
-          value={formState.name}
-          placeholder="Name"
-          required
-        />
-        <input
-          onChange={(event) => setInput("description", event.target.value)}
-          style={styles.input}
-          value={formState.description}
-          placeholder="Description"
-        />
+      <input
+        onChange={(event) => setInput("name", event.target.value)}
+        style={styles.input}
+        value={formState.name}
+        placeholder="Name"
+        required
+      />
+      <input
+        onChange={(event) => setInput("description", event.target.value)}
+        style={styles.input}
+        value={formState.description}
+        placeholder="Description"
+      />
 
-        <button
-          style={styles.button}
-          onClick={addVideo}
-        >
-          Add Video to List
-        </button>
-      {formState.cloudinary ? formState.cloudinary.secure_url : ''}
+      <button style={styles.button} onClick={addVideo}>
+        Add Video to List
+      </button>
       {videos.map((video, index) => (
         <div key={video.id ? video.id : index} style={styles.video}>
           <p style={styles.videoName}>{video.name}</p>
           <p style={styles.videoDescription}>{video.description}</p>
+          <div style={styles.vids}>
+            <video controls muted width="320" height="240">
+              <source
+                src={video.cloudinary.secure_url}
+                type="video/mp4"
+              ></source>
+            </video>
+          </div>
         </div>
       ))}
     </div>
@@ -122,6 +129,9 @@ const App = () => {
 };
 
 const styles = {
+  vids: {
+    maxWidth: "800px",
+  },
   container: {
     width: 400,
     margin: "0 auto",
