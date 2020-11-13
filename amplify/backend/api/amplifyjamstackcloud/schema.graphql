@@ -1,4 +1,4 @@
-type Videos @model {
+type Video @model {
   id: ID!
   name: String!
   description: String

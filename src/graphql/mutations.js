@@ -1,12 +1,12 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const createVideos = /* GraphQL */ `
-  mutation CreateVideos(
-    $input: CreateVideosInput!
-    $condition: ModelVideosConditionInput
+export const createVideo = /* GraphQL */ `
+  mutation CreateVideo(
+    $input: CreateVideoInput!
+    $condition: ModelVideoConditionInput
   ) {
-    createVideos(input: $input, condition: $condition) {
+    createVideo(input: $input, condition: $condition) {
       id
       name
       description
@@ -15,12 +15,12 @@ export const createVideos = /* GraphQL */ `
     }
   }
 `;
-export const updateVideos = /* GraphQL */ `
-  mutation UpdateVideos(
-    $input: UpdateVideosInput!
-    $condition: ModelVideosConditionInput
+export const updateVideo = /* GraphQL */ `
+  mutation UpdateVideo(
+    $input: UpdateVideoInput!
+    $condition: ModelVideoConditionInput
   ) {
-    updateVideos(input: $input, condition: $condition) {
+    updateVideo(input: $input, condition: $condition) {
       id
       name
       description
@@ -29,12 +29,12 @@ export const updateVideos = /* GraphQL */ `
     }
   }
 `;
-export const deleteVideos = /* GraphQL */ `
-  mutation DeleteVideos(
-    $input: DeleteVideosInput!
-    $condition: ModelVideosConditionInput
+export const deleteVideo = /* GraphQL */ `
+  mutation DeleteVideo(
+    $input: DeleteVideoInput!
+    $condition: ModelVideoConditionInput
   ) {
-    deleteVideos(input: $input, condition: $condition) {
+    deleteVideo(input: $input, condition: $condition) {
       id
       name
       description
