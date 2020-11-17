@@ -1,8 +1,8 @@
-# Amplify your JAMStack with Video
+# Amplify your Jamstack with Video
 
 Tags: AWS, Amplify, Cloudinary, Video
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Amplify_with_Cloudinary.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Amplify_with_Cloudinary.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Amplify_with_Cloudinary.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Amplify_with_Cloudinary.png)
 
 ## Demo
 
@@ -10,19 +10,19 @@ You can find the demo here [https://amplify-cloudinary.codingcat.dev](https://am
 
 AWS Amplify
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Screen_Shot_2020-11-04_at_1.54.33_PM.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Screen_Shot_2020-11-04_at_1.54.33_PM.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Screen_Shot_2020-11-04_at_1.54.33_PM.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Screen_Shot_2020-11-04_at_1.54.33_PM.png)
 
 [https://aws.amazon.com/amplify/getting-started/?nc=sn&loc=4](https://aws.amazon.com/amplify/getting-started/?nc=sn&loc=4)
 
-Have you been considering using Amplify, but your wondering how it will fit into your JAMStack Journey? Lets start off with what Amplify is described as from AWS:
+Have you been considering using Amplify, but you're wondering how it will fit into your Jamstack Journey? Let's start off with what Amplify is described as from AWS:
 
 > AWS Amplify is a set of products and tools that enables mobile and front-end web developers to build and deploy secure, scalable full stack applications, powered by AWS. With Amplify, you can configure app backends in minutes, connect them to your app in just a few lines of code, and deploy static web apps in three steps. Get to market faster with AWS Amplify.
 
-AWS Amplify is a great tool for anyone getting started with a new web or mobile project. I am going to focus mainly on the web side in this post. What AWS Amplify does well for developers is provide you with a great platform so you can start building very quickly. One of the complaints is that it doesn't make some of the things that should be easy, well easy. Historically when people start creating websites they will always use images and videos. This can be a pain for developers to developers because immediately you will have to start concerning yourself with performance. Yes AWS Amplify makes it very easy to load these things to a S3 bucket but from there it takes a lot more work and also costs start to add up quickly. They are continuing to improve methods for both as I showed with my post on [AWS Amplify Video](https://codingcat.dev/tutorials/aws-amplify-video/). 
+AWS Amplify is a great tool for anyone getting started with a new web or mobile project. I am going to focus mainly on the web side in this post. What AWS Amplify does well for developers is provide you with a great platform so you can start building very quickly. One of the common complaints is that it doesn't make some of the things that should be easy, well easy. Historically, when people start creating websites they will always use images and videos. This can be a pain for developers to developers because immediately you will have to start concerning yourself with performance. Yes AWS Amplify makes it very easy to load these things to an S3 bucket but from there it takes a lot more work and also costs start to add up quickly. They are continuing to improve methods for both as I showed with my post on [AWS Amplify Video](https://codingcat.dev/tutorials/aws-amplify-video/). 
 
 ## Cloudinary
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled.png)
 
 [https://cloudinary.com/solutions/video_management](https://cloudinary.com/solutions/video_management)
 
@@ -30,7 +30,7 @@ AWS Amplify is a great tool for anyone getting started with a new web or mobile 
 
 Cloudinary is known for easy media uploads and on the fly image and video transformations. This allows developers to worry less about all of the infrastructure that has to be maintained for creating great pipelines for these videos. They also provide a number of software development Kits (SDK) for all of popular platforms right now.
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%201.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%201.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%201.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%201.png)
 
 ## Building a Demo App
 
@@ -101,7 +101,7 @@ npm start
 
 When you are successful you will see that beautiful rotating React icon.
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%202.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%202.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%202.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%202.png)
 
 ### Adding AWS Amplify
 
@@ -140,31 +140,31 @@ Now select Yes, when asked if you would like to use a profile. If this is your f
 ❯ default
 ```
 
-You will see a new message appear explaining that a "AWS Amplify Console app" is being added. This happens really fast so you might miss it! You may also find that your wondering "what in the world just happened?". 
+You will see a new message appear explaining that a "AWS Amplify Console app" is being added. This happens really fast so you might miss it! You may also find that you're wondering "what in the world just happened?". 
 
 ```
 Adding backend environment dev to AWS Amplify Console app: d2hxdxps86f74m
 ```
 
-This is one of the downsides (or upsides) of using AWS Amplify. It makes creating applications very simple, which is great by hiding a lot of the details. However, if you are detail oriented like a lot of us it can be frustrating. So what just happened here is that up in AWS a new app was created. Now if you navigate to [https://console.aws.amazon.com](https://console.aws.amazon.com)  you can go to the AWS Amplify service.
+This is one of the downsides (or upsides) of using AWS Amplify. It makes creating applications very simple, which is great by hiding a lot of the details. However, if you are detail oriented like a lot of us, it can be frustrating. So what just happened here is that up in AWS a new app was created. Now if you navigate to [https://console.aws.amazon.com](https://console.aws.amazon.com)  you can go to the AWS Amplify service.
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%203.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%203.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%203.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%203.png)
 
 You should see your new application amplifyjamstackcloud (if you named it the same)
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%204.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%204.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%204.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%204.png)
 
-If you are not finding your app, it might be because you are in the wrong region make sure to set the correct one by using the drop down in the upper left.
+If you are not finding your app, it might be because you are in the wrong region. Make sure to set the correct one by using the drop down in the upper left.
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%205.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%205.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%205.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%205.png)
 
-Now that your app is up in the cloud if you look in General you will see that this application has that original name of `d2hxdxps86f74m` just like we saw in our console. Another thing to take a look at is your backend of `dev` that we added as well, see below where that is located as it will become more important as we continue. 
+Now that your app is up in the cloud, if you look in General you will see that this application has that original name of `d2hxdxps86f74m` just like we saw in our console. Another thing to take a look at is your backend of `dev` that we added as well, see below where that is located as it will become more important as we continue. 
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%206.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%206.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%206.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%206.png)
 
 The backend for `dev` is relatively empty at this time but you will notice that AWS Amplify is using [CloudFormation](https://aws.amazon.com/cloudformation/) under the hood. This is what is known as backend as code (BaC). I won't go into great detail what that means, so we can get onto the fun part 😸
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%207.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%207.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%207.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%207.png)
 
 ### Setting up the Frontend
 
@@ -184,7 +184,7 @@ import awsExports from "./aws-exports";
 Amplify.configure(awsExports);
 ```
 
-Thats it now your app is ready to call Amplify (and inherently the AWS SDK).
+That's it now your app is ready to call Amplify (and inherently the AWS SDK).
 
 ### Adding our Data Layer
 
@@ -194,7 +194,7 @@ We are going to utilize GraphQL as our database layer, if you feel more comforta
 amplify add api
 ```
 
-You can add all of the following information when prompted. If you know you are going to take this demo further you might want to choose multiple objects, however for this simple setup we are just going to pick single object.
+You can add all of the following information when prompted. If you know you are going to take this demo further you might want to choose multiple objects, however, for this simple setup, we are just going to pick single object.
 
 ```
 ? Please select from one of the below mentioned services: GraphQL
@@ -208,13 +208,13 @@ You can add all of the following information when prompted. If you know you are 
 e, description)
 ```
 
-When prompted "Do you want to edit the schema now? (y/N)" you can select yes...just be warned that this will open your default editor for the single file. I prefer to look at the project in its entirety so I choose no and instead run the below command, opening everything in VSCode.
+When prompted "Do you want to edit the schema now? (y/n)" you can select yes...just be warned that this will open your default editor for the single file. I prefer to look at the project in its entirety so I choose no and instead run the below command, opening everything in VSCode.
 
 ```
 code . 
 ```
 
-There are a lot of files/directories starting to stack up in our project. Everything for our backend that we are creating will be located in the `amplify` directory. In order to find your newly created schema look in `amplify/backend/api/amplifyjamstackcloud/schema.graphql` . Here you should see the below schema.
+There are a lot of files/directories starting to stack up in our project. Everything for our backend that we are creating will be located in the `amplify` directory. In order to find your newly created schema, look in `amplify/backend/api/amplifyjamstackcloud/schema.graphql` . Here you should see the below schema.
 
 ```graphql
 type Todo @model {
@@ -234,7 +234,7 @@ type Video @model {
 }
 ```
 
-Now we can "push" this up to the AWS Cloud. There are many things that happen during this many of which you will find in the `amplify/backend/api/amplifyjamstackcloud/build` directory. Please feel to reach out to me at [https://codingcat.dev](https://codingcat.dev) if you have more questions about what is happening.
+Now we can "push" this up to the AWS Cloud. There are many things that happen during this process, many of which you will find in the `amplify/backend/api/amplifyjamstackcloud/build` directory. Please feel to reach out to me at [https://codingcat.dev](https://codingcat.dev) if you have more questions about what is happening.
 
 Execute the command below.
 
@@ -279,7 +279,7 @@ GraphQL endpoint: https://<example>.appsync-api.us-east-1.amazonaws.com/graphql
 GraphQL API KEY: <example>
 ```
 
-Don't worry if you loose this it will be stored in `src/aws-exports.js` so that your React application can use it to connect.
+Don't worry if you lose this,  it will be stored in `src/aws-exports.js` so that your React application can use it to connect.
 
 ### Connect frontend to API
 
@@ -289,39 +289,39 @@ Now that we have a very simple initial setup we can start to create a simple app
 npm run start
 ```
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%208.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%208.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%208.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%208.png)
 
-If you add a name and description you should see added below the form. If you are like me and you want to see the DynamoDB data to make sure this isn't some trick and we are storing locally go to this link [https://console.aws.amazon.com/dynamodb/home](https://console.aws.amazon.com/dynamodb/home) ( you may need to login ).
+If you add a name and description you should see it added below in the form. If you are like me and you want to see the DynamoDB data to make sure this isn't some trick, and, we are storing locally, go to this link [https://console.aws.amazon.com/dynamodb/home](https://console.aws.amazon.com/dynamodb/home) ( you may need to login ).
 
  
 
-> If you are not seeing any tables switch region.
+> If you are not seeing any tables, be sure to switch the region.
 
-Below you should see your table and then you can click on that table to show our video name and description.
+Below you should see your table, then click on that table to show our video name and description.
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%209.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%209.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%209.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%209.png)
 
 ## Video Upload
 
 > If you are looking to use Video On Demand or streaming please see this tutorial [https://codingcat.dev/tutorials/aws-amplify-video/](https://codingcat.dev/tutorials/aws-amplify-video/)
 
-For this example you are going to use [Cloudinary's Upload Widget](https://cloudinary.com/documentation/upload_widget) to allow for uploading of our video. There are two main cases for uploading videos to Cloudinary `unsigned` and `signed`. So that we can checkout using some additional features of AWS Amplify we will use the `signed` version for our uploads. This will require some additional work but it will secure your Cloudinary account further. I will also add this is not the only way of doing uploads, you could also use AWS Amplify's built in S3 upload and trigger a lambda to upload the file [from the S3 bucket](https://cloudinary.com/documentation/upload_images#file_source_options). For this example we are going to skip using S3 all together.
+For this example you are going to use [Cloudinary's Upload Widget](https://cloudinary.com/documentation/upload_widget) to allow for uploading of our video. There are two main cases for uploading videos to Cloudinary `unsigned` and `signed`. So that we can checkout using some additional features of AWS Amplify, we will use the `signed` version for our uploads. This will require some additional work but it will secure your Cloudinary account further. I will also add this is not the only way of doing uploads, you could also use AWS Amplify's built-in S3 upload and trigger a lambda to upload the file [from the S3 bucket](https://cloudinary.com/documentation/upload_images#file_source_options). For this example, we are going to skip using S3 all together.
 
 ### Cloudinary Setup
 
-You will need to add an upload preset in Cloudinary. To do this you click the gear Icon within your console, then select Upload tab, the address should be similar to this `https://cloudinary.com/console/<your console>/settings/upload`
+You will need to add an upload preset in Cloudinary. To do this, you click the gear Icon within your console, then select the Upload tab, the address should be similar to this `https://cloudinary.com/console/<your console>/settings/upload`
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2010.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2010.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2010.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2010.png)
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2011.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2011.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2011.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2011.png)
 
 Scroll into view (or search for) Upload presets: and select `Add Upload preset`. On this screen provide a folder and select `Signed` for Signing mode.
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2012.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2012.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2012.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2012.png)
 
 Once you save this please take note that you will need this and your `Cloud name` from the dashboard.
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2013.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2013.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2013.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2013.png)
 
 ### Adding Upload Code
 
@@ -331,7 +331,7 @@ First add the [Cloudinary's Upload Widget](https://cloudinary.com/documentation/
 <script src="https://widget.cloudinary.com/v2.0/global/all.js" type="text/javascript"></script>
 ```
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2014.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2014.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2014.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2014.png)
 
 Once this is complete you will also need to include the variable for our upload widget.
 
@@ -364,7 +364,7 @@ const showWidget = (uploadWidget) => {
 
 At this point you can select the upload button but you might find this error `Upload preset must be whitelisted for unsigned uploads`. This is because you still need to sign this upload so that it is more secure.
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2015.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2015.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2015.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2015.png)
 
 ### Creating a Lambda for signing
 
@@ -389,7 +389,7 @@ Use the below parameters
 
 Then no for everything else
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2016.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2016.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2016.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2016.png)
 
 Now even though we ran this with Amplify we have not yet connected it to our AppSync API so we cannot call it. We will add that functionality by adding the line below to  `amplify/backend/api/amplifyjamstackcloud/schema.graphql`
 
@@ -401,31 +401,31 @@ type Query {
 
 > Please take not the ${env} here allows for our `dev` environment to be used, this helps later if you ever want to use a `stage` or `prod` environment for testing.
 
-Now to load all of this to AWS aka the cloud. Do do that run the below command.
+Now to load all of this to AWS aka the cloud. To do that, run the below command.
 
 ```bash
 amplify push
 ```
 
-This will give you a screen showing your new function to be created and graphql to be updated.
+This will give you a screen showing your new function to be created and GraphQL to be updated.
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2017.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2017.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2017.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2017.png)
 
 Select Yes on all the prompts. Now go grab a ☕️because this is going to take a few minutes.
 
 > Pro Tip: `amplify push --y` will skip all the questions in the future, this gets old quick.
 
-Also if you are super curious about what is happening like me, take a look at at the AWS console and head into CloudFormation you will find your Stack that just ran with all the resources.
+Also if you are super curious about what is happening like me, take a look at the AWS console, and head into CloudFormation you will find your Stack that just ran with all the resources.
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2018.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2018.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2018.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2018.png)
 
 For a lighter version of this you can also go to amplify select your project → backend → dev. When I was first getting started I liked doing everything through the Amplify dashboard so I could keep it together in my head more.
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2019.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2019.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2019.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2019.png)
 
 ### Testing new function
 
-When your `amplify push` finished you should have received a message with your graphql and api key. This also means that your code was updated locally including your graphql definitions. In `src/graphql/queries.js` you will find a new query called `cloudinarysignature` we can use this to call our Lambda through AppSync. Add the below to your `App.js`.
+When your `amplify push` finished you should have received a message with your GraphQL and API key. This also means that your code was updated locally including your GraphQL definitions. In `src/graphql/queries.js` you will find a new query called `cloudinarysignature` we can use this to call our Lambda through AppSync. Add the below to your `App.js`.
 
 ```jsx
 // eslint-disable-next-line no-unused-vars
@@ -441,7 +441,7 @@ async function fetchCloudinarySignature(cb, params) {
 }
 ```
 
-Then update `showWidget` to call this post before opening our dialog. You could put this anywhere but I though this would be easy.
+Then update `showWidget` to call this post before opening our dialog. You could put this anywhere but I thought this would be easy.
 
 ```jsx
 const showWidget = () => {
@@ -460,9 +460,9 @@ This will call our GraphQL endpoint and return our "Hello from Lambda!" response
 
 > Any confusion consult [https://cloudinary.com/documentation/node_integration#overview](https://cloudinary.com/documentation/node_integration#overview)
 
-Now that you know our simple example works, we will update the lambda to call Cloudinary. First we need to add the Cloudinary SDK, by running the below command in this directory `amplify/backend/function/cloudinarysignature/src`. Small tip if you are using VSCode you can do this to open terminal directly to that folder
+Now that you know our simple example works, we will update the lambda to call Cloudinary. First we need to add the Cloudinary SDK, by running the below command in this directory `amplify/backend/function/cloudinarysignature/src`. Small tip: if you are using VSCode you can do this to open terminal directly to that folder
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2020.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2020.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2020.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2020.png)
 
 ```bash
 npm install cloudinary
@@ -507,21 +507,21 @@ Now if you push the Upload button you should see this message, saying that your 
 
 Go back to your Cloudinary Dashboard and grab your key, then open the AWS Console and navigate to [Lambda > Functions](https://console.aws.amazon.com/lambda/home?region=us-east-1#/functions). Find the `cloudinarysignature-dev` function in the list and click on it.  Scroll down to the Environment Variables and click edit
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2021.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2021.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2021.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2021.png)
 
 Add your API Key, secret and name.
 
 > **NEVER GIVE YOUR API TO ANYONE OR PUT IN YOUR REPO!**
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2022.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2022.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2022.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2022.png)
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2023.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2023.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2023.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2023.png)
 
 Now if you go back to your React app once again [`http://localhost:3000/`](http://localhost:3000/) you can click Upload Video once again and your secret key will be returned.
 
 ### Update App.js for Secret
 
-Now that we can see the key coming back an working we will just use this call within our `creatUploadWidget` function request. Below is the full `App.js`
+Now that we can see the key coming back and working we will just use this call within our `creatUploadWidget` function request. Below is the full `App.js`
 
 ```jsx
 /* src/App.js */
@@ -719,7 +719,7 @@ amplify add hosting
 
 Select Hosting with Amplify, Manual
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2024.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2024.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2024.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2024.png)
 
 Now you just need to push up to the web
 
@@ -727,9 +727,9 @@ Now you just need to push up to the web
 amplify publish
 ```
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2025.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2025.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2025.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2025.png)
 
-![Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2026.png](Amplify%20your%20JAMStack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2026.png)
+![Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2026.png](Amplify%20your%20Jamstack%20with%20Video%209e43c4db9f0e4d91b8e0e6cb4e493c8a/Untitled%2026.png)
 
 That link at the bottom is your new app, you can also place a custom domain over it.
 
